@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Login personal account</name>
+		<description>test cases входа в личный кабинет https://idemo.bspb.ru</description>
+						<cases>
+												<case>
+				<id>C2</id>
+				<title>Вход в лк (happy pass)</title>
+												<template>Test Case (Steps)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Открыть сайт Банка: &amp;lt;ссылка&amp;gt;</preconds>
+										<steps_separated><step>
+<index>1</index><content>1. Ввод валидного логина в поле логин
+
+|||:Header 1|:Header 2|:Header 3|:Header 4
+|| Row 1 .. |  |  |  
+|| Row 2 .. |  |  |  
+|| Row 3 .. |  |  |  
+|| Row 4 .. |  |  |  
+%</content><expected>Вход на главную страницу.</expected></step>
+<step>
+<index>2</index><content>2. Ввод валидного пароля в поле пароль</content><expected>Вход на главную страницу Вход на главную страницу</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C2119</id>
+				<title>Открыть сайт</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+															<case>
+				<id>C2120</id>
+				<title>1 тест кейс</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>предусловия</preconds>
+										<steps>1. шаг</steps>
+										<expected>предполаг результат</expected>
+									</custom>
+							</case>
+								</cases>
+								<sections>
+		<section>
+		<name>subsection1.1</name>
+		<description>подсекция1.1</description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Test Cases For Header</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Test Cases For Footer</name>
+		<description></description>
+									</section>
+	</sections>
+</suite>
